@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5193616200,
+              "duration": 5012505100,
               "status": "passed"
             },
             "match": {
@@ -14,16 +14,27 @@
             }
           }
         ],
-        "line": 4,
+        "line": 24,
         "name": "User should be able to login with valid credential and open a new account",
         "description": "",
-        "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credential-and-open-a-new-account",
+        "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credential-and-open-a-new-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 797130100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.teardown()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1639883100,
+              "duration": 1531800500,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 2122607800,
+              "duration": 2122081200,
               "status": "passed"
             },
             "line": 6,
@@ -49,11 +60,14 @@
               ],
               "location": "LoginStepDefinition.user_enters_the_username(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2085377000,
+              "duration": 2094172600,
               "status": "passed"
             },
             "line": 7,
@@ -67,11 +81,14 @@
               ],
               "location": "LoginStepDefinition.user_enters_the_password(String)"
             },
+            "matchedColumns": [
+              1
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3139696900,
+              "duration": 3178338500,
               "status": "passed"
             },
             "line": 8,
@@ -83,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 196948800,
+              "duration": 191270600,
               "status": "passed"
             },
             "line": 9,
@@ -95,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 58383500,
+              "duration": 64982900,
               "status": "passed"
             },
             "line": 10,
@@ -107,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 306219100,
+              "duration": 355894800,
               "status": "passed"
             },
             "line": 11,
@@ -119,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 100294300,
+              "duration": 96833100,
               "status": "passed"
             },
             "line": 12,
@@ -133,11 +150,14 @@
               ],
               "location": "LoginStepDefinition.user_enters_accountTitle_as_in_accounts_page(String)"
             },
+            "matchedColumns": [
+              2
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 90939100,
+              "duration": 84464200,
               "status": "passed"
             },
             "line": 13,
@@ -151,11 +171,14 @@
               ],
               "location": "LoginStepDefinition.user_enters_description_as_in_accounts_page(String)"
             },
+            "matchedColumns": [
+              3
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 87161400,
+              "duration": 97007300,
               "status": "passed"
             },
             "line": 14,
@@ -169,11 +192,14 @@
               ],
               "location": "LoginStepDefinition.user_enters_initialBalance_as_in_accounts_page(String)"
             },
+            "matchedColumns": [
+              4
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 118230900,
+              "duration": 128210000,
               "status": "passed"
             },
             "line": 15,
@@ -187,11 +213,14 @@
               ],
               "location": "LoginStepDefinition.user_enters_accountNumber_as_in_accounts_page(String)"
             },
+            "matchedColumns": [
+              5
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 81577600,
+              "duration": 103298000,
               "status": "passed"
             },
             "line": 16,
@@ -205,11 +234,14 @@
               ],
               "location": "LoginStepDefinition.user_enters_contactPerson_as_in_accounts_page(String)"
             },
+            "matchedColumns": [
+              6
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 86113500,
+              "duration": 95074700,
               "status": "passed"
             },
             "line": 17,
@@ -223,11 +255,14 @@
               ],
               "location": "LoginStepDefinition.user_enters_phone_as_in_accounts_page(String)"
             },
+            "matchedColumns": [
+              7
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 143299600,
+              "duration": 132587300,
               "status": "passed"
             },
             "line": 18,
@@ -241,11 +276,14 @@
               ],
               "location": "LoginStepDefinition.user_enters_internetBankingURL_as_in_accounts_page(String)"
             },
+            "matchedColumns": [
+              8
+            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 659301100,
+              "duration": 741328700,
               "status": "passed"
             },
             "line": 19,
@@ -257,7 +295,7 @@
           },
           {
             "result": {
-              "duration": 3714300,
+              "duration": 4744600,
               "status": "passed"
             },
             "line": 20,
@@ -280,6 +318,6 @@
     "description": "",
     "id": "techfios-bank-and-cash-new-account-functionality",
     "keyword": "Feature",
-    "uri": "features/AddAccount.feature"
+    "uri": "features/AddAccount2.feature"
   }
 ]
