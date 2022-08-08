@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 4842328800,
+              "duration": 5012505100,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 797281000,
+              "duration": 797130100,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1002159200,
+              "duration": 1531800500,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 2196012600,
+              "duration": 2122081200,
               "status": "passed"
             },
             "line": 6,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 2094491600,
+              "duration": 2094172600,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 3381763200,
+              "duration": 3178338500,
               "status": "passed"
             },
             "line": 8,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 195691100,
+              "duration": 191270600,
               "status": "passed"
             },
             "line": 9,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 51052100,
+              "duration": 64982900,
               "status": "passed"
             },
             "line": 10,
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 292711000,
+              "duration": 355894800,
               "status": "passed"
             },
             "line": 11,
@@ -136,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 115048400,
+              "duration": 96833100,
               "status": "passed"
             },
             "line": 12,
@@ -157,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 107264400,
+              "duration": 84464200,
               "status": "passed"
             },
             "line": 13,
@@ -178,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 85953500,
+              "duration": 97007300,
               "status": "passed"
             },
             "line": 14,
@@ -199,7 +199,7 @@
           },
           {
             "result": {
-              "duration": 108626600,
+              "duration": 128210000,
               "status": "passed"
             },
             "line": 15,
@@ -220,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 93603100,
+              "duration": 103298000,
               "status": "passed"
             },
             "line": 16,
@@ -241,7 +241,7 @@
           },
           {
             "result": {
-              "duration": 114397900,
+              "duration": 95074700,
               "status": "passed"
             },
             "line": 17,
@@ -262,7 +262,7 @@
           },
           {
             "result": {
-              "duration": 120434100,
+              "duration": 132587300,
               "status": "passed"
             },
             "line": 18,
@@ -283,7 +283,7 @@
           },
           {
             "result": {
-              "duration": 596144400,
+              "duration": 741328700,
               "status": "passed"
             },
             "line": 19,
@@ -295,7 +295,7 @@
           },
           {
             "result": {
-              "duration": 15377900,
+              "duration": 4744600,
               "status": "passed"
             },
             "line": 20,
@@ -318,6 +318,6 @@
     "description": "",
     "id": "techfios-bank-and-cash-new-account-functionality",
     "keyword": "Feature",
-    "uri": "features/AddAccount.feature"
+    "uri": "features/AddAccount2.feature"
   }
 ]
