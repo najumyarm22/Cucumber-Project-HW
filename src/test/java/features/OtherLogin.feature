@@ -6,12 +6,13 @@ Feature: Techfios Other login validation
 
 	@OtherScenario1
 	Scenario Outline: User should not be able to login with incorrect credentials
-	When User enters username as "demo@techfios.com"
-	When User enters password as "abc124"
+	When User enters username as "<username>"
+	When User enters password as "<password>"
 	And User clicks on Signin button
 	Then User should not land on Dashboard page
 	Examples:
 	|username						|password	|
+	|demo@techfios.com	|abc123		|
 	|demo@techfios.com	|abc124		|
 	|demo2@techfios.com	|abc123		|
 	|demo2@techfios.com	|abc124		|

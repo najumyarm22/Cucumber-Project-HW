@@ -6,17 +6,150 @@ formatter.feature({
   "id": "techfios-bank-and-cash-new-account-functionality",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 5193616200,
-  "status": "passed"
-});
-formatter.scenario({
+formatter.scenarioOutline({
   "line": 4,
   "name": "User should be able to login with valid credential and open a new account",
   "description": "",
   "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credential-and-open-a-new-account",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@AddAccount"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "User is on Techfios login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User enters the username \"\u003cusername\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "User enters the password \"\u003cpassword\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "User clicks on Signin button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "User should land on Dashboard page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "User clicks on bankAndCash",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 11,
+  "name": "User clicks on newAccount",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 12,
+  "name": "User enters accountTitle as \"\u003caccountTitle\u003e\" in accounts page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "User enters description as \"\u003cdescription\u003e\" in accounts page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "User enters initialBalance as \"\u003cinitialBalance\u003e\" in accounts page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 15,
+  "name": "User enters accountNumber as \"\u003caccountNumber\u003e\" in accounts page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 16,
+  "name": "User enters contactPerson as \"\u003ccontactPerson\u003e\" in accounts page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 17,
+  "name": "User enters phone as \"\u003cphone\u003e\" in accounts page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 18,
+  "name": "User enters internetBankingURL as \"\u003cinternetBankingURL\u003e\" in accounts page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 19,
+  "name": "User clicks on Submit button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "User should be able to validate account created successfully",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 22,
+  "name": "",
+  "description": "",
+  "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credential-and-open-a-new-account;",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password",
+        "accountTitle",
+        "description",
+        "initialBalance",
+        "accountNumber",
+        "contactPerson",
+        "phone",
+        "internetBankingURL"
+      ],
+      "line": 23,
+      "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credential-and-open-a-new-account;;1"
+    },
+    {
+      "cells": [
+        "demo@techfios.com",
+        "abc123",
+        "tech0055",
+        "New Account",
+        "50000",
+        "000999333",
+        "Miller",
+        "45632189",
+        "https://www.bankofamerica.com/"
+      ],
+      "line": 24,
+      "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credential-and-open-a-new-account;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 4842328800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 24,
+  "name": "User should be able to login with valid credential and open a new account",
+  "description": "",
+  "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credential-and-open-a-new-account;;2",
   "type": "scenario",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "line": 3,
@@ -32,11 +165,17 @@ formatter.step({
 formatter.step({
   "line": 6,
   "name": "User enters the username \"demo@techfios.com\"",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
   "name": "User enters the password \"abc123\"",
+  "matchedColumns": [
+    1
+  ],
   "keyword": "When "
 });
 formatter.step({
@@ -62,36 +201,57 @@ formatter.step({
 formatter.step({
   "line": 12,
   "name": "User enters accountTitle as \"tech0055\" in accounts page",
+  "matchedColumns": [
+    2
+  ],
   "keyword": "When "
 });
 formatter.step({
   "line": 13,
   "name": "User enters description as \"New Account\" in accounts page",
+  "matchedColumns": [
+    3
+  ],
   "keyword": "When "
 });
 formatter.step({
   "line": 14,
   "name": "User enters initialBalance as \"50000\" in accounts page",
+  "matchedColumns": [
+    4
+  ],
   "keyword": "When "
 });
 formatter.step({
   "line": 15,
   "name": "User enters accountNumber as \"000999333\" in accounts page",
+  "matchedColumns": [
+    5
+  ],
   "keyword": "When "
 });
 formatter.step({
   "line": 16,
   "name": "User enters contactPerson as \"Miller\" in accounts page",
+  "matchedColumns": [
+    6
+  ],
   "keyword": "When "
 });
 formatter.step({
   "line": 17,
   "name": "User enters phone as \"45632189\" in accounts page",
+  "matchedColumns": [
+    7
+  ],
   "keyword": "When "
 });
 formatter.step({
   "line": 18,
   "name": "User enters internetBankingURL as \"https://www.bankofamerica.com/\" in accounts page",
+  "matchedColumns": [
+    8
+  ],
   "keyword": "When "
 });
 formatter.step({
@@ -108,7 +268,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_is_on_Techfios_login_page()"
 });
 formatter.result({
-  "duration": 1639883100,
+  "duration": 1002159200,
   "status": "passed"
 });
 formatter.match({
@@ -121,7 +281,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_the_username(String)"
 });
 formatter.result({
-  "duration": 2122607800,
+  "duration": 2196012600,
   "status": "passed"
 });
 formatter.match({
@@ -134,35 +294,35 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_the_password(String)"
 });
 formatter.result({
-  "duration": 2085377000,
+  "duration": 2094491600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Signin_button()"
 });
 formatter.result({
-  "duration": 3139696900,
+  "duration": 3381763200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_land_on_Dashboard_page()"
 });
 formatter.result({
-  "duration": 196948800,
+  "duration": 195691100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_bankAndCash()"
 });
 formatter.result({
-  "duration": 58383500,
+  "duration": 51052100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_newAccount()"
 });
 formatter.result({
-  "duration": 306219100,
+  "duration": 292711000,
   "status": "passed"
 });
 formatter.match({
@@ -175,7 +335,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_accountTitle_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 100294300,
+  "duration": 115048400,
   "status": "passed"
 });
 formatter.match({
@@ -188,7 +348,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_description_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 90939100,
+  "duration": 107264400,
   "status": "passed"
 });
 formatter.match({
@@ -201,7 +361,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_initialBalance_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 87161400,
+  "duration": 85953500,
   "status": "passed"
 });
 formatter.match({
@@ -214,7 +374,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_accountNumber_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 118230900,
+  "duration": 108626600,
   "status": "passed"
 });
 formatter.match({
@@ -227,7 +387,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_contactPerson_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 81577600,
+  "duration": 93603100,
   "status": "passed"
 });
 formatter.match({
@@ -240,7 +400,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_phone_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 86113500,
+  "duration": 114397900,
   "status": "passed"
 });
 formatter.match({
@@ -253,21 +413,25 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_internetBankingURL_as_in_accounts_page(String)"
 });
 formatter.result({
-  "duration": 143299600,
+  "duration": 120434100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Submit_button()"
 });
 formatter.result({
-  "duration": 659301100,
+  "duration": 596144400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "duration": 3714300,
+  "duration": 15377900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 797281000,
   "status": "passed"
 });
 });
